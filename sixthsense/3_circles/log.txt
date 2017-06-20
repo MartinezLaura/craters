@@ -1,0 +1,47 @@
+yann@yann-ok:~/PugliaTreeCount/3_circles$ time bash run.sh
+rm -f circles
+gcc -o circles main.c rs.c arrays.c -I/usr/include/gdal/ -L/usr/lib -lgdal -lm -Wall -fopenmp -O2 -mavx
+/home/yann/PugliaTreeCount/dataOut/2_grass_process
+total 1,2G
+4,0K drwxr-xr-x 3 yann yann 4,0K mai   18 15:45 .
+4,0K drwxr-xr-x 6 yann yann 4,0K mai   18 15:17 ..
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_0.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_1.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_2.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_3.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_4.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_5.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_6.tif
+ 34M -rw-r--r-- 1 yann yann  34M mai   18 15:44 2015_zona1_7.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_0.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_1.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_2.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_3.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_4.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_5.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_6.tif
+ 22M -rw-r--r-- 1 yann yann  22M mai   18 15:44 2015_zona2_7.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_0.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_1.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_2.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_3.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_4.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_5.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_6.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona1_7.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_0.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_1.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_2.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_3.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_4.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_5.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_6.tif
+ 48M -rw-r--r-- 1 yann yann  48M mai   18 15:44 2016_zona2_7.tif
+4,0K drwxr-xr-x 2 yann yann 4,0K mai   18 15:44 orig
+4,0K -rw-r--r-- 1 yann yann  164 mai   18 15:44 run.sh
+4,0K -rw-r--r-- 1 yann yann  936 sept. 12  2016 tileimg.sh
+
+real	152m35,988s
+user	903m32,292s
+sys	55m52,020s
+
